@@ -1,21 +1,34 @@
 {
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
-  "docsets_to_publish": [
-    {
-      "docset_name": "RepoDependent-internal",
-      "build_source_folder": "RepoDependent-internal",
-      "build_output_subfolder": "RepoDependent-internal",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "op"
-    }
-  ],
-  "skip_source_output_uploading": false
+    "need_generate_pdf": false,
+    "need_generate_intellisense": false,
+    "docsets_to_publish": [{
+            "docset_name": "RepoDependent-internal",
+            "build_source_folder": "RepoDependent-internal",
+            "build_output_subfolder": "RepoDependent-internal",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": true,
+            "type_mapping": {
+                "Conceptual": "Content",
+                "ManagedReference": "Content",
+                "RestApi": "Content"
+            },
+            "build_entry_point": "op"
+        },
+        {
+            "docset_name": "RepoDependent-internal1",
+            "build_source_folder": "RepoDependent-internal1",
+            "build_output_subfolder": "RepoDependent-internal1",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": true,
+            "type_mapping": {
+                "Conceptual": "Content",
+                "ManagedReference": "Content",
+                "RestApi": "Content"
+            },
+            "build_entry_point": "docs"
+        }
+    ],
+    "skip_source_output_uploading": false
 }
